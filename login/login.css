@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    
+    box-sizing: border-box; 
+background: url(Imagens/27.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.logininbox{
+    width: 320px;
+    height: 420px;
+    top: 50%;
+    left: 50%;
+    background: #000;
+    color: #fff;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    padding: 70px 30px;
+    border-radius: 1rem;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.logininbox input{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.text{
+    margin: 0;
+    padding: 7px 0px;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.text input[type="text"],input[type="password"]
+{ color: #000;
+    font-size: 16px;
+    outline: none;
+    height: 30px;
+   
+}
+.logininbox input[type="submit"]{
+    outline: none;
+    height: 40px;
+    border-radius: 25px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    transition: 2s opacity ease-in;
+}
+.logininbox input[type="submit"]:hover{
+    cursor: pointer;
+    color: #000;
+    background: #ffc107;
+}
+.logininbox a{
+    display: block;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 13px;
+    color: darkgray;
+transition: 2s opacity ease-in;
+}
+.logininbox a:hover{
+    color: #ffc107;
+}
+.text input{
+    line-height: 20px;
+    height: 30px;
+    padding: 0px 34px;
+    border-radius: 10px;
+    position: relative; 
+}
+/*
+.text input[type="text"]withIcon img{
+    content: url(Icones/user_40px.png);
+    position: relative;
+    left: 10px;
+   color: darkmagenta;
+   padding: 0px 0px; 
+   visibility: visible;
+   border-radius: 0px;
+   border: 2px solid rgb(116, 54, 54);
+}
+input[type="text"]:hover:before{
+font-size: 30px;
+color: darkmagenta;
+}*/
+
+.text img{
+     width: 28px;
+     height: 28px;
+     z-index: 1;
+   position: absolute;
+margin:0 4px auto ;
+}
+.text img input[type="text"] {
+    left: 5%;
+   padding-left: 18px;
+
+}
